@@ -12,30 +12,3 @@ body {
 	background-color: #045de9;
 	background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
 }
-
-table {
-	border-spacing: 0;
-}
-
-table,
-td,
-th {
-	border: 1px solid black;
-}
-
-td,
-th {
-	padding: 5px 20px;
-}
-
-thead {
-	background-color: tomato;
-}
-
-tbody {
-	background-color: #fff;
-}
-
-tfoot {
-	background-color: royalblue;
-}
