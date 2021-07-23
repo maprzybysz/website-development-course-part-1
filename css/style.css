@@ -12,6 +12,33 @@ body {
 	background-color: #333;
 	color: #fff;
 }
-i {
-	color: yellowgreen;
+p {
+	color: gold;
+
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	/* direction: rtl; */
+	text-shadow: 5px 5px 5px #fff;
+	/* line-height: 200px; */
 }
+div {
+	margin-top: 30px;
+	background-color: royalblue;
+	height: 300px;
+	text-align: center;
+	line-height: 300px;
+}
+/* a {
+	color: white;
+	text-decoration: none;
+} */
+
+/* .samll {
+	text-transform: uppercase;
+}
+.big {
+	text-transform: lowercase;
+}
+.text {
+	text-transform: capitalize;
+} */
