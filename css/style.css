@@ -1,21 +1,24 @@
-body {
-	font-family: 'Comfortaa', cursive;
-	background-color: #333;
-	color: #fff;
-	font-size: 36px;
-	font-family: 'Comfortaa', cursive;
-}
-img {
-	display: block;
-	width: 800px;
-	border-radius: 25px;
-	margin: 0 auto;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-p {
-	color: lime;
+body {
+	font-size: 36px;
+	font-family: 'Comfortaa', cursive;
+	color: #fff;
+	background-color: #333;
 }
-.tomato {
-	color: tomato;
-	text-decoration: underline;
+.box {
+	width: 600px;
+	height: 600px;
+	background: lime;
+}
+.inside {
+	/* width: 300px; */
+	width: 50vw;
+	/* height: 300px; */
+	height: 10vh;
+	background: royalblue;
 }
