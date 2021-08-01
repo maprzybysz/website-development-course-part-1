@@ -19,21 +19,34 @@
 	</head>
 
 	<body>
-		<style>
-			/* #test {
-				background-color: tomato;
-			}
-			.square {
-				background-color: lime;
-			} */
-			div {
-				width: 600px;
-				height: 600px;
-				background-color: gold;
-			}
-		</style>
-		<section>
-			<div class="square" id="test"></div>
-		</section>
+		<h3>kaskadowość & dziedziczenie</h3>
+		<!-- parent - child -->
+		<div>
+			<p></p>
+		</div>
+		<!-- siblings -->
+		<div></div>
+		<div></div>
+		<div></div>
+		<!-- family -->
+		<main>
+			<section>
+				<div>
+					<p></p>
+				</div>
+			</section>
+
+			<div class="parent">
+				<p>Paragram w PARENT</p>
+				<span>SPAN w PARENT</span>
+			</div>
+
+			<div>
+				<p>Paragram w DIV bez klasy</p>
+				<span>SPAN W DIV bez klasy</span>
+			</div>
+
+			<p>Tekst poza Divami</p>
+		</main>
 	</body>
 </html>
