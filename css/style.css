@@ -28,11 +28,19 @@ div {
 }
 
 .blue {
-	position: fixed;
+	position: sticky;
+	top: 0;
 	margin: 20px auto;
 	background-color: royalblue;
 }
 
 .green {
 	background-color: greenyellow;
+}
+.gold {
+	position: sticky;
+	top: 0;
+	height: 100px;
+	width: 100px;
+	background-color: gold;
 }
