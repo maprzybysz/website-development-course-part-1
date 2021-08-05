@@ -10,57 +10,29 @@ body {
 	color: #fff;
 	background-color: #333;
 	font-size: 36px;
+	height: 200vh;
 }
 section {
-	position: relative;
 	margin-top: 200px;
-	margin-bottom: 50px;
-	height: 300px;
-	background-color: #ddd;
 }
 
 div {
-	height: 100px;
-	width: 100px;
+	margin: 0 auto;
+	height: 200px;
+	width: 600px;
 	border: 3px solid black;
 }
 
 .red {
 	background-color: tomato;
-	position: absolute;
-	top: 0;
-	left: 0;
 }
 
 .blue {
+	position: fixed;
+	margin: 20px auto;
 	background-color: royalblue;
-	position: absolute;
-	top: 0;
-	left: 100px;
 }
 
 .green {
 	background-color: greenyellow;
-	position: absolute;
-	top: 0;
-	left: 200px;
-}
-
-.gold {
-	background-color: gold;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-}
-
-.silver {
-	background-color: silver;
-	position: absolute;
-	bottom: 100px;
-	right: 0;
-}
-
-.black {
-	display: inline-block;
-	background-color: black;
 }
