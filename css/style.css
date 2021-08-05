@@ -5,59 +5,74 @@
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	background-color: #333;
 	font-size: 36px;
 	color: #fff;
 }
-
-.bg {
-	width: 100vw;
-	height: 100vh;
-	background-color: #ddd;
-	transition: 0.3s;
-}
-
-.square {
-	display: inline-block;
+.btn {
+	width: 120px;
 	position: absolute;
 	top: 50px;
-	width: 60px;
-	height: 60px;
-	border: 3px solid black;
 	transform: translateX(-50%);
+	padding: 10px 30px;
+	background: none;
+	color: white;
+	font-weight: 700;
+	border: 3px solid white;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 	cursor: pointer;
+	transition: 0.3s;
 }
-
-.red {
-	left: 20%;
-	background-color: tomato;
+.btn:hover {
+	background-color: white;
+	color: black;
 }
-
+.zoom {
+	left: 30%;
+}
+.move {
+	left: 50%;
+}
+.color {
+	left: 70%;
+}
+.square {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 150px;
+	transform: translateX(-50%);
+	border-radius: 25px;
+	transition: 0.3s;
+}
 .blue {
-	left: 40%;
 	background-color: royalblue;
+	left: 30%;
+	border: 2px solid royalblue;
+	box-shadow: 0 0 15px royalblue;
 }
-
-.green {
-	left: 60%;
-	background-color: greenyellow;
-}
-
-.gold {
-	left: 80%;
-	background-color: gold;
-}
-
-.red:hover ~ .bg {
+.red {
 	background-color: tomato;
+	left: 50%;
+	border: 2px solid tomato;
+	box-shadow: 0 0 15px tomato;
 }
-.blue:hover ~ .bg {
-	background-color: royalblue;
-}
-.green:hover ~ .bg {
+.green {
 	background-color: greenyellow;
+	left: 70%;
+	border: 2px solid greenyellow;
+	box-shadow: 0 0 15px greenyellow;
 }
-.gold:hover ~ .bg {
-	background-color: gold;
+.zoom:hover ~ .square {
+	width: 200px;
+	height: 200px;
+}
+.move:hover ~ .square {
+	top: 400px;
+}
+.color:hover ~ .square {
+	background-color: black;
 }
