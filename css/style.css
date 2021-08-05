@@ -5,42 +5,59 @@
 }
 
 body {
-	margin: 50px;
-	font-family: 'Comfortaa', cursive;
-	color: #fff;
+	font-family: 'Montserrat', sans-serif;
 	background-color: #333;
 	font-size: 36px;
-	height: 200vh;
-}
-section {
-	margin-top: 200px;
+	color: #fff;
 }
 
-div {
-	margin: 0 auto;
-	height: 200px;
-	width: 600px;
+.bg {
+	width: 100vw;
+	height: 100vh;
+	background-color: #ddd;
+	transition: 0.3s;
+}
+
+.square {
+	display: inline-block;
+	position: absolute;
+	top: 50px;
+	width: 60px;
+	height: 60px;
 	border: 3px solid black;
+	transform: translateX(-50%);
+	cursor: pointer;
 }
 
 .red {
+	left: 20%;
 	background-color: tomato;
 }
 
 .blue {
-	position: sticky;
-	top: 0;
-	margin: 20px auto;
+	left: 40%;
 	background-color: royalblue;
 }
 
 .green {
+	left: 60%;
 	background-color: greenyellow;
 }
+
 .gold {
-	position: sticky;
-	top: 0;
-	height: 100px;
-	width: 100px;
+	left: 80%;
+	background-color: gold;
+}
+
+.red:hover ~ .bg {
+	background-color: tomato;
+}
+.blue:hover ~ .bg {
+	background-color: royalblue;
+}
+.green:hover ~ .bg {
+	background-color: greenyellow;
+}
+.gold:hover ~ .bg {
 	background-color: gold;
 }
