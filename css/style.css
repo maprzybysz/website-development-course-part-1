@@ -5,6 +5,10 @@
 }
 
 body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 	font-family: 'Nunito', sans-serif;
 	background-color: #333;
 	font-size: 36px;
@@ -12,8 +16,6 @@ body {
 }
 
 .square {
-	position: absolute;
-	left: 50%;
 	width: 200px;
 	height: 200px;
 	transform: translateX(-50%);
@@ -21,20 +23,30 @@ body {
 	border: 2px solid rgb(0, 77, 127);
 	box-shadow: 0 0 15px rgb(0, 153, 255);
 	border-radius: 25px;
-	/* transition: all 0s ease 0s; */
-	transition: 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	transition: 0.5s;
 }
-.square:hover {
-	background-color: rgb(255, 0, 255);
-	box-shadow: 0 0 15px rgb(255, 0, 255);
-	width: 350px;
+.translate:hover {
+	/* transform: translate(50px, 100px); */
+	transform: translateX(50px);
 }
-.one {
-	top: 15%;
+.scale:hover {
+	transform: scale(0.5);
 }
-.two {
-	top: 40%;
+.rotate:hover {
+	transform: rotate(45deg);
 }
-.three {
-	top: 65%;
+.skew:hover {
+	transform: skew(45deg);
+}
+
+.rotate {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	border-top: 10px solid rgb(255, 0, 255);
+	border-bottom: 10px solid rgb(255, 0, 255);
+	border-left: 10px solid lime;
+	border-right: 10px solid lime;
+	transition: 2s;
 }
