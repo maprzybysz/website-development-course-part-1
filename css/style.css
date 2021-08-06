@@ -10,69 +10,31 @@ body {
 	font-size: 36px;
 	color: #fff;
 }
-.btn {
-	width: 120px;
-	position: absolute;
-	top: 50px;
-	transform: translateX(-50%);
-	padding: 10px 30px;
-	background: none;
-	color: white;
-	font-weight: 700;
-	border: 3px solid white;
-	border-radius: 5px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	cursor: pointer;
-	transition: 0.3s;
-}
-.btn:hover {
-	background-color: white;
-	color: black;
-}
-.zoom {
-	left: 30%;
-}
-.move {
-	left: 50%;
-}
-.color {
-	left: 70%;
-}
+
 .square {
-	width: 100px;
-	height: 100px;
 	position: absolute;
-	top: 150px;
-	transform: translateX(-50%);
-	border-radius: 25px;
-	transition: 0.3s;
-}
-.blue {
-	background-color: royalblue;
-	left: 30%;
-	border: 2px solid royalblue;
-	box-shadow: 0 0 15px royalblue;
-}
-.red {
-	background-color: tomato;
 	left: 50%;
-	border: 2px solid tomato;
-	box-shadow: 0 0 15px tomato;
-}
-.green {
-	background-color: greenyellow;
-	left: 70%;
-	border: 2px solid greenyellow;
-	box-shadow: 0 0 15px greenyellow;
-}
-.zoom:hover ~ .square {
 	width: 200px;
 	height: 200px;
+	transform: translateX(-50%);
+	background-color: rgb(0, 153, 255);
+	border: 2px solid rgb(0, 77, 127);
+	box-shadow: 0 0 15px rgb(0, 153, 255);
+	border-radius: 25px;
+	/* transition: all 0s ease 0s; */
+	transition: 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.move:hover ~ .square {
-	top: 400px;
+.square:hover {
+	background-color: rgb(255, 0, 255);
+	box-shadow: 0 0 15px rgb(255, 0, 255);
+	width: 350px;
 }
-.color:hover ~ .square {
-	background-color: black;
+.one {
+	top: 15%;
+}
+.two {
+	top: 40%;
+}
+.three {
+	top: 65%;
 }
