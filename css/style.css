@@ -8,16 +8,18 @@ body {
 	font-family: 'Nunito', sans-serif;
 	background-color: #333;
 	height: 100vh;
-	/* background: ;
-	background-color: ;
-	background-image: ;
-	background-repeat: ;
-	background-size: ;
-	background-attachment: ; */
-	background-image: url('https://pixabay.com/get/g5c34c8e75f7af656c1e06a5d5d316fd598d8116a78b44d3bd59ef2753bcb8bdb51c675230f1d0cc1b0c299d2eac15770_640.png');
-	background-repeat: no-repeat;
-	/* background-position: 50% 100px; */
-	background-position: center;
-	/* background-size: contain; */
-	background-size: cover;
+	font-size: 48px;
+}
+.square {
+	width: 50%;
+	height: 50%;
+	margin: 300px auto;
+	background-color: royalblue;
+	border: 3px solid black;
+	border-radius: 25px;
+}
+@media (min-width: 500px) and (max-width: 600px) {
+	.square {
+		background-color: gold;
+	}
 }
