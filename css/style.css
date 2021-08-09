@@ -102,6 +102,23 @@ main h2 {
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
+.services-list {
+	margin: 0 auto;
+	width: 200px;
+}
+.prices-table {
+	margin: 0 auto;
+}
+.prices-table td {
+	padding: 10px 30px;
+}
+.contact-info {
+	text-align: center;
+	font-size: 36px;
+}
+.contact-info .fas {
+	margin-right: 10px;
+}
 footer {
 	height: 80px;
 	line-height: 80px;
