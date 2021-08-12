@@ -129,6 +129,18 @@ main {
 		font-size: 24px;
 	}
 }
+.contact {
+	text-align: center;
+}
+.contact h3 {
+	margin: 20px 0 5px;
+	text-transform: uppercase;
+}
+footer {
+	padding: 30px 10px;
+	text-align: center;
+	background-color: #ddd;
+}
 @media (min-width: 992px) {
 	.products-box {
 		font-size: 0;
